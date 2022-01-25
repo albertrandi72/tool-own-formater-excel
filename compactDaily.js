@@ -71,10 +71,6 @@ readline.question(`Input your file name (without .xlsx): `, name => {
         }).then(res => {
             console.log(res)
         })
-        // csvWriter.writeRecords(records)       // returns a promise
-        //     .then(() => {
-        //         console.log('...Done');
-        //     });
 
     })
     readline.close()
